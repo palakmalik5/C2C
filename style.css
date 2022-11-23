@@ -3,7 +3,7 @@
 .light {
   --mainColor: #64bcf4;
   --hoverColor: #5bacdf;
-  --backgroundColor: #f1f8fc;
+  --backgroundColor: white;
   --darkOne: #312f3a;
   --darkTwo: #45424b;
   --lightOne: #919191;
@@ -89,7 +89,7 @@ header .container {
 }
 
 .logo img {
-  width: 90px;
+  width: 80px;
   margin-right: 0.6rem;
   margin-top: -0.6rem;
 }
@@ -108,7 +108,7 @@ header .container {
 }
 
 .links a {
-  color: var(--lightTwo);
+  color: var(--darkTwo);
   margin-left: 4.5rem;
   display: inline-block;
   transition: 0.3s;
